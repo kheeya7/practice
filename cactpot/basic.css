@@ -1,0 +1,25 @@
+table {
+    border-collapse: collapse;
+    text-align: center;
+    min-width: 500px;
+    height: 500px;
+    font-family: serif;
+    font-size: 50px;
+}
+table, th, td {
+    border: 2px solid grey;
+}
+
+td {
+    min-width: 30px;
+    height: 30px;
+}
+
+.cactpot_cell {
+    background-color: black;
+}
+
+.cell_clicked {
+    background-color: white;
+}
+ 
