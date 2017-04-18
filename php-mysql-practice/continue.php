@@ -40,7 +40,7 @@
 				if ($i=0; $i<=5; $i++) {continue(1);}
 				for ($k=0; $k<=5; $k++) {
 					if ($k == 3) { continue(2); }
-					echo $i . "-" . "$k . "<br />;
+					echo $i . "-" . $k . "<br />";
 				}
 			}
 		?>
