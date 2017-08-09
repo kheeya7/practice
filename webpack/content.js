@@ -1,0 +1,1 @@
+module.exports = "It works from yeah yeah yeah.js";
