@@ -1,0 +1,5 @@
+.hello {
+    color: skyblue;
+    background: url('./bacon-pancake.jpg');
+    background-repeat: repeat-y;
+}
