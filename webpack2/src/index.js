@@ -2,17 +2,22 @@ import _ from 'lodash';
 import './style.css';
 import CakeImage from './bacon-pancake.jpg';
 import printMe from './print.js';
+import '../node_modules/bootstrap';
+import '../node_modules/bootstrap/dist/css/bootstrap.css';
+import CoolItems from './cool-items/cool-items.js';
+
 
 function component() {
     var element = document.createElement('div');
 
-    element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-    element.classList.add('hello');
+    var coolItemsPanel = document.createElement('div');
 
-    var cakePic = new Image();
-    cakePic.src = CakeImage;
+    var coolItems = new CoolItems();
+    var coolItemsHtml = coolItems.render();
 
-    element.appendChild(cakePic);
+    coolItemsPanel.innerHTML = coolItemsHtml;
+
+    element.appendChild(coolItemsPanel);
 
     return element;
 }

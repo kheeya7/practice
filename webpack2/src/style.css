@@ -1,5 +1,7 @@
 .hello {
-    color: skyblue;
-    background: url('./bacon-pancake.jpg');
-    background-repeat: repeat-y;
+    color: tomato;
+}
+
+.price {
+    color: grey;
 }
