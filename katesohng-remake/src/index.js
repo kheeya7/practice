@@ -1,4 +1,4 @@
-import './style.css';
+import './baseStyle.less';
 import '../node_modules/bootstrap';
 import '../node_modules/bootstrap/dist/css/bootstrap.css';
 import RootPage from './rootpage/rootpage.js';
