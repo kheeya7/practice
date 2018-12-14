@@ -21,6 +21,9 @@ h2 {
     font-size: 40px;
     margin-top: 0;
 }
+h3 {
+    margin: 0;
+}
 a {
     color:#EF233C;
 }
@@ -33,18 +36,18 @@ a:hover {
     padding: 50px;
     overflow: auto;
 }
-
 .col-narrow {
     width: 30%;
     float: left;
-    min-height: 175px;
 }
-
 .col-wide {
     width: 70%;
     float: left;
     padding-left: 20px;
-    min-height: 175px;
+}
+
+.uppercase {
+    text-transform: uppercase;
 }
 
 /* Header & Footer 
@@ -81,10 +84,23 @@ footer {
 .work {
     background: #EDF2F4;    
 }
+h3 ~ p {
+    margin: 0;
+}
+.job-description {
+    margin-bottom: 25px;
+}
+.job-description p:first-of-type {
+    margin-top: 0;
+}
 
 
 /* Education
 ------------------------------------*/
 .education {
     background: #8D99AE;
+}
+
+p + h3 {
+    margin-top: 30px;
 }
