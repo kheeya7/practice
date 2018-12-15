@@ -74,9 +74,22 @@ footer {
 }
 
 .contact-info a {
-    background: white;
     padding: 10px;
     display: inline-block;
+}
+
+/* Navigation
+------------------------------------*/
+nav {
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    padding: 15px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
 }
 
 /* Work Experience
