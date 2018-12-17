@@ -50,26 +50,41 @@ a:hover {
     text-transform: uppercase;
 }
 
-/* Header & Footer 
-------------------------------------*/
-header {
-    padding-top: 50px;
+.btn {
+    text-decoration: none;
+    background: #EF233C;
+    color: white;
+    padding: 10px;
+    display: inline-block;
 }
 
+/* Header & Footer 
+------------------------------------*/
 header, footer {
     background: #2B2D42;
     color: #8D99AE;
 }
 /* header */
+header {
+    padding-top: 50px;
+    position: relative;
+}
+
+header h1, header h2 {
+    color: #EDF2F4;
+    margin: 0;
+}
+
 .profile-img {
     border-radius: 50%;
     float: left;
     margin-right: 30px;
 }
 
-header h1, header h2 {
-    color: #EDF2F4;
-    margin: 0;
+.download {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 
 /* footer */
