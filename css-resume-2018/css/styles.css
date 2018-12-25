@@ -125,7 +125,8 @@ h3 ~ p {
 /* Education
 ------------------------------------*/
 .education {
-    background: #8D99AE;
+    background: linear-gradient(rgba(141,153,174,0.8), rgba(141,153,174,0.5)), url(https://images.unsplash.com/photo-1545609884-564825fd2238?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2687&q=80) no-repeat fixed;
+    background-size: cover;
 }
 
 p + h3 {
